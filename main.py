@@ -16,14 +16,14 @@ def get_date(file_name):
 
 
 def rename_files():
-    def ofn(a): return f"org_indexcomponents/indexcomponents ({a}).csv"
     def nfn(s): return f"components/indexcomponents_{s[2]}_{s[1]}_{s[0]}.csv"
-    for i in range(71):
-        old_name = ofn(i)
+    for f in os.listdir('org_indexcomponents'):
+        old_name = os.path.join('org_indexcomponents', f)
         s = get_date(old_name)
         new_name = nfn(s)
-        print("Copied", old_name, "as", new_name)
-        shutil.copy(old_name, new_name)
+        if not os.path.isfile(new_name):
+            print("Copied", old_name, "as", new_name)
+            shutil.copy(old_name, new_name)
 
 
 def get_symbols(file_name):
@@ -68,4 +68,5 @@ def diff_symbols():
 
 
 if __name__ == "__main__":
+    rename_files()
     diff_symbols()
