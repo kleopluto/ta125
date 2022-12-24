@@ -1,3 +1,11 @@
+from 2022-06-19 to 2022-06-20, no change.
+from 2022-06-20 to 2022-06-21, no change.
+from 2022-06-21 to 2022-06-22, no change.
+from 2022-06-22 to 2022-06-23, no change.
+from 2022-06-23 to 2022-06-26, no change.
+from 2022-06-26 to 2022-06-27, no change.
+from 2022-06-27 to 2022-06-28, no change.
+from 2022-06-28 to 2022-06-29, no change.
 from 2022-06-29 to 2022-06-30, no change.
 from 2022-06-30 to 2022-07-03, no change.
 from 2022-07-03 to 2022-07-04, no change.
@@ -24,7 +32,7 @@ from 2022-07-31 to 2022-08-01, no change.
 from 2022-08-01 to 2022-08-02, no change.
 from 2022-08-02 to 2022-08-03, no change.
 from 2022-08-03 to 2022-08-04, no change.
-from 2022-08-04 to 2022-08-08, Out stocks:  ['BVC', 'BONS', 'ELWS', 'MAXO', 'TRX'], In stocks: ['GNRS', 'DUNI', 'SCOP', 'ISTA']
+from 2022-08-04 to 2022-08-08, Out stocks:  ['BONS', 'ELWS', 'TRX', 'MAXO', 'BVC'], In stocks: ['GNRS', 'DUNI', 'ISTA', 'SCOP']
 from 2022-08-08 to 2022-08-09, no change.
 from 2022-08-09 to 2022-08-10, no change.
 from 2022-08-10 to 2022-08-11, no change.
@@ -63,7 +71,7 @@ from 2022-09-28 to 2022-09-29, no change.
 from 2022-09-29 to 2022-10-02, no change.
 from 2022-10-02 to 2022-10-03, no change.
 from 2022-10-03 to 2022-10-06, no change.
-from 2022-10-06 to 2022-10-11, In stocks: ['SBEN', 'CRSR']
+from 2022-10-06 to 2022-10-11, In stocks: ['CRSR', 'SBEN']
 from 2022-10-11 to 2022-10-12, no change.
 from 2022-10-12 to 2022-10-13, no change.
 from 2022-10-13 to 2022-10-18, no change.
