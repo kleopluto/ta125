@@ -3,7 +3,7 @@ import csv
 import pandas as pd
 import os
 from datetime import date
-
+import sys
 
 def get_date(file_name):
     with open(file_name, 'r') as f:
@@ -50,23 +50,25 @@ def get_in_stocks(before, after):
     return list(set(after) - set(before))
 
 
-def diff_symbols():
+def diff_symbols(output_file = sys.stdout):
     symbols_dir = get_date_symbols()
     soted_keys = sorted(symbols_dir)
     to_iterate = zip(soted_keys[:-1], soted_keys[1:])
     for before, after in to_iterate:
-        print('from', before, 'to', after, end=', ')
+        print('from', before, 'to', after, end=', ', file=output_file)
         out_stocks = get_out_stocks(symbols_dir[before], symbols_dir[after])
         in_stocks = get_in_stocks(symbols_dir[before], symbols_dir[after])
         if len(out_stocks) == 0 and len(in_stocks) == 0:
-            print("no change.", end='')
+            print("no change.", end='',  file=output_file)
         if len(out_stocks):
-            print('Out stocks: ', out_stocks, end=', ')
+            print('Out stocks: ', out_stocks, end=', ',  file=output_file)
         if len(in_stocks):
-            print('In stocks:', in_stocks, end='')
-        print()
+            print('In stocks:', in_stocks, end='',  file=output_file)
+        print(  file=output_file)
 
 
 if __name__ == "__main__":
     rename_files()
-    diff_symbols()
+    output_file = 'output.txt'
+    with open(output_file, 'w') as f:
+        diff_symbols(f)
