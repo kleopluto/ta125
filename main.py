@@ -63,15 +63,15 @@ def diff_symbols(output_file = sys.stdout):
         if len(out_stocks) == 0 and len(in_stocks) == 0:
             print("no change.", end='',  file=output_file)
         if len(out_stocks):
-            outs_counter+=1
+            outs_counter+=len(out_stocks)
             print('Out stocks: ', out_stocks, end=', ',  file=output_file)
         if len(in_stocks):
-            ins_counter+=1
+            ins_counter+=len(in_stocks)
             print('In stocks:', in_stocks, end='',  file=output_file)
         print(  file=output_file)
-        print(f"no. of ins changes  = {ins_counter}", file=output_file)
-        print(f"no. of outs changes = {outs_counter}", file=output_file)
-        print(f"no. total changes   = {ins_counter + outs_counter}", file=output_file)
+    print(f"no. of ins changes  = {ins_counter}", file=output_file)
+    print(f"no. of outs changes = {outs_counter}", file=output_file)
+    print(f"no. total changes   = {ins_counter + outs_counter}", file=output_file)
         
 
 
