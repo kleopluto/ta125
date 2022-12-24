@@ -54,6 +54,8 @@ def diff_symbols(output_file = sys.stdout):
     symbols_dir = get_date_symbols()
     soted_keys = sorted(symbols_dir)
     to_iterate = zip(soted_keys[:-1], soted_keys[1:])
+    ins_counter = 0
+    outs_counter = 0
     for before, after in to_iterate:
         print('from', before, 'to', after, end=', ', file=output_file)
         out_stocks = get_out_stocks(symbols_dir[before], symbols_dir[after])
@@ -61,10 +63,16 @@ def diff_symbols(output_file = sys.stdout):
         if len(out_stocks) == 0 and len(in_stocks) == 0:
             print("no change.", end='',  file=output_file)
         if len(out_stocks):
+            outs_counter+=1
             print('Out stocks: ', out_stocks, end=', ',  file=output_file)
         if len(in_stocks):
+            ins_counter+=1
             print('In stocks:', in_stocks, end='',  file=output_file)
         print(  file=output_file)
+        print(f"no. of ins changes  = {ins_counter}", file=output_file)
+        print(f"no. of outs changes = {outs_counter}", file=output_file)
+        print(f"no. total changes   = {ins_counter + outs_counter}", file=output_file)
+        
 
 
 if __name__ == "__main__":
