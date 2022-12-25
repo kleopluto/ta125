@@ -15,10 +15,12 @@ def get_date(file_name):
         return s
 
 
-def rename_files():
+
+def copy_files_to_components():
     def nfn(s): return f"components/indexcomponents_{s[2]}_{s[1]}_{s[0]}.csv"
-    for f in os.listdir('org_indexcomponents'):
-        old_name = os.path.join('org_indexcomponents', f)
+    org_folder = "active_folder"
+    for f in os.listdir(org_folder):
+        old_name = os.path.join(org_folder, f)
         s = get_date(old_name)
         new_name = nfn(s)
         if not os.path.isfile(new_name):
@@ -76,7 +78,7 @@ def diff_symbols(output_file = sys.stdout):
 
 
 if __name__ == "__main__":
-    rename_files()
+    copy_files_to_components()
     output_file = 'output.txt'
     with open(output_file, 'w') as f:
         diff_symbols(f)
