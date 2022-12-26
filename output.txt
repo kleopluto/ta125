@@ -1,3 +1,24 @@
+from 2021-10-03 to 2021-10-04, no change.
+from 2021-10-04 to 2021-10-05, no change.
+from 2021-10-05 to 2021-10-06, no change.
+from 2021-10-06 to 2021-10-07, no change.
+from 2021-10-07 to 2021-10-10, In stocks: ['TRX']
+from 2021-10-10 to 2021-10-11, no change.
+from 2021-10-11 to 2021-10-12, no change.
+from 2021-10-12 to 2021-10-13, no change.
+from 2021-10-13 to 2021-10-14, no change.
+from 2021-10-14 to 2021-10-17, no change.
+from 2021-10-17 to 2021-10-18, no change.
+from 2021-10-18 to 2021-10-19, no change.
+from 2021-10-19 to 2021-10-20, no change.
+from 2021-10-20 to 2021-10-21, no change.
+from 2021-10-21 to 2021-10-24, no change.
+from 2021-10-24 to 2021-10-25, no change.
+from 2021-10-25 to 2021-10-26, no change.
+from 2021-10-26 to 2021-10-27, no change.
+from 2021-10-27 to 2021-10-28, no change.
+from 2021-10-28 to 2021-10-31, no change.
+from 2021-10-31 to 2021-11-01, no change.
 from 2021-11-01 to 2021-11-02, no change.
 from 2021-11-02 to 2021-11-03, no change.
 from 2021-11-03 to 2021-11-04, no change.
@@ -64,7 +85,7 @@ from 2022-01-26 to 2022-01-27, no change.
 from 2022-01-27 to 2022-02-01, no change.
 from 2022-02-01 to 2022-02-02, no change.
 from 2022-02-02 to 2022-02-03, no change.
-from 2022-02-03 to 2022-02-06, Out stocks:  ['ELLO', 'CGEN', 'ALLT', 'GNCL', 'AUGN', 'AQUA', 'APLP', 'BCNV', 'KRUR', 'GNRS', 'PRGO'], In stocks: ['AURA', 'PRSK', 'NVPT', 'TRPZ', 'HGG', 'ILX', 'POLP']
+from 2022-02-03 to 2022-02-06, Out stocks:  ['ALLT', 'GNCL', 'PRGO', 'KRUR', 'AUGN', 'APLP', 'CGEN', 'ELLO', 'GNRS', 'BCNV', 'AQUA'], In stocks: ['AURA', 'POLP', 'PRSK', 'TRPZ', 'HGG', 'NVPT', 'ILX']
 from 2022-02-06 to 2022-02-07, no change.
 from 2022-02-07 to 2022-02-08, no change.
 from 2022-02-08 to 2022-02-09, no change.
@@ -188,7 +209,7 @@ from 2022-07-31 to 2022-08-01, no change.
 from 2022-08-01 to 2022-08-02, no change.
 from 2022-08-02 to 2022-08-03, no change.
 from 2022-08-03 to 2022-08-04, no change.
-from 2022-08-04 to 2022-08-08, Out stocks:  ['TRX', 'ELWS', 'MAXO', 'BONS', 'BVC'], In stocks: ['DUNI', 'SCOP', 'ISTA', 'GNRS']
+from 2022-08-04 to 2022-08-08, Out stocks:  ['ELWS', 'TRX', 'MAXO', 'BVC', 'BONS'], In stocks: ['SCOP', 'GNRS', 'DUNI', 'ISTA']
 from 2022-08-08 to 2022-08-09, no change.
 from 2022-08-09 to 2022-08-10, no change.
 from 2022-08-10 to 2022-08-11, no change.
@@ -277,6 +298,6 @@ from 2022-12-18 to 2022-12-19, no change.
 from 2022-12-19 to 2022-12-20, no change.
 from 2022-12-20 to 2022-12-21, no change.
 from 2022-12-21 to 2022-12-22, no change.
-no. of ins changes  = 16
+no. of ins changes  = 17
 no. of outs changes = 20
-no. total changes   = 36
+no. total changes   = 37
